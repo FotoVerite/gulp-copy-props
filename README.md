@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://gulpjs.com">
+  <a href="https://gulpjs.com">
     <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
   </a>
 </p>
@@ -211,7 +211,17 @@ _dst_ object after copying.
     | _key_      | string | The key name of the current node.                       |
     | _keyChain_ | string | The full key of the current node concatenated with dot. |
     | _depth_    | number | The depth of the current node.                          |
-    | _parent_   | object | The parent node of the current node.                    |
+    | _parent_   | object | The parent node of the current node.      
+    
+## Strict No LLM / No AI Policy
+
+No LLMs for issues.
+
+No LLMs for patches / pull requests.
+
+No LLMs for comments on the bug tracker, including translation.
+
+English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.              |
 
 ## License
 
@@ -222,9 +232,9 @@ MIT
 [npm-url]: https://www.npmjs.org/package/copy-props
 [npm-image]: https://img.shields.io/npm/v/copy-props.svg?style=flat-square
 
-[ci-url]: https://github.com/gulpjs/copy-props/actions?query=workflow:dev
-[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/copy-props/dev.yml?branch=master&style=flat-square
+[ci-url]: https://github.com/gulpjs/copy-props/actions/workflows/dev.yml
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/copy-props/dev.yml?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/gulpjs/copy-props
-[coveralls-image]: https://img.shields.io/coveralls/gulpjs/copy-props/master.svg
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/copy-props/main.svg?style=flat-square
 <!-- prettier-ignore-end -->
